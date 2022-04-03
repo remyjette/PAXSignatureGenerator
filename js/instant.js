@@ -136,7 +136,7 @@ for( var obj in SORTMAGIC) {
   }
 }
 
-var comboatlas = Jimp.read("../resources/images/PAX_COMBO.png")
+var comboatlas = Jimp.read("images/PAX_COMBO.png")
 
 function badgeChanged() {
   var badgeform = $(this).serializeArray()
