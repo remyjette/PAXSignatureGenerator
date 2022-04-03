@@ -52,14 +52,12 @@ const PAX_DATA = {
     year: 2011,
     order: 2,
     color: Jimp.rgbaToInt(13, 160, 146, 255)
+  },
+  "UNPLUGGED": {
+    year: 2017,
+    order: 5,
+    color: Jimp.rgbaToInt(144, 71, 153, 255)
   }
-}
-const BADGE_IMG_LOOKUP = {
-  "AUS": "PAX_AUS.png",
-  "DEV": "PAX_DEV.png",
-  "EAST": "PAX_EAST.png",
-  "SOUTH": "PAX_SOUTH.png",
-  "WEST": "PAX_WEST.png"
 }
 const VERYLARGEWRAP = 1000;
 var SORTMAGIC = {
@@ -126,28 +124,32 @@ var SORTMAGIC = {
     "EAST": "2017/04/01",
     "AUS": "2017/10/31",
     "WEST": "2017/09/04",
-    "DEV": "2017/08/30"
+    "DEV": "2017/08/30",
+    "UNPLUGGED": "2017/11/19"
   },
   "2018": {
     "SOUTH": "2018/01/14",
     "EAST": "2018/04/08",
     "AUS": "2018/10/28",
     "WEST": "2018/09/03",
-    "DEV": "2018/08/29"
+    "DEV": "2018/08/29",
+    "UNPLUGGED": "2018/12/02"
   },
   "2019": {
     "SOUTH": "2019/01/20",
     "EAST": "2019/03/31",
     "AUS": "2019/10/13",
     "WEST": "2019/09/02",
-    "DEV": "2019/08/28"
+    "DEV": "2019/08/28",
+    "UNPLUGGED": "2019/12/08"
   },
   "2020": {
     "SOUTH": "2020/01/19",
     "EAST": "2020/03/01"
   },
   "2021": {
-    "WEST": "2021/09/06"
+    "WEST": "2021/09/06",
+    "UNPLUGGED": "2021/12/12"
   },
   "2022": {
     "EAST": "2022/04/24"
